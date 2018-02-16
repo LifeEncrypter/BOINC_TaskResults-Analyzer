@@ -68,11 +68,11 @@ int main(int argc, char* argv[])
 		if(tmp == "Completedandvalidated")
 		{
 			getline(lineStream, tmp, ';');
-			runTime = stod(tmp);
+			runTime = stof(tmp);
 			getline(lineStream, tmp, ';');
-			cpuTime = stod(tmp);
+			cpuTime = stof(tmp);
 			getline(lineStream, tmp, ';');
-			credit = stod(tmp);
+			credit = stof(tmp);
 			getline(lineStream, tmp, ';'); //tmp now holds the application name
 			
 			//std::cout << "Application: " << application << "; Runtime: " << runTime << "; cpuTime: " << cpuTime << "; Credit: " << credit << "\n";
@@ -96,7 +96,7 @@ int main(int argc, char* argv[])
 					appList[j].name = tmp;
 					if(tmp.length() > maxNameLength)
 					{
-						maxNameLength = tmp.length();
+						maxNameLength = static_cast<int>(tmp.length());
 					}
 					appList[j].runTimeData.push_back(runTime);
 					appList[j].cpuTimeData.push_back(cpuTime);
