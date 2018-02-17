@@ -8,3 +8,5 @@ To use on Linux run:
 To use on Windows open a command line (windows key and search for "cmd" and open it) and enter:
 
 \PATH\TO\FILE\BOINC_TaReA_win64.exe [\PATH\TO\PullTaskResults Output File]
+
+Presented to you by https://steemit.com/@theissen
