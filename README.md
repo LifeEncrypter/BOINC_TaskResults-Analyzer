@@ -9,4 +9,6 @@ To use on Windows open a command line (windows key and search for "cmd" and open
 
 \PATH\TO\FILE\BOINC_TaReA_win64.exe [\PATH\TO\PullTaskResults Output File]
 
+Since yoyo@home does not report or just has no different Application Types it is right now not supported.
+
 Presented to you by https://steemit.com/@theissen
